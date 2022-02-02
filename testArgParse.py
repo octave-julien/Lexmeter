@@ -1,3 +1,0 @@
-import Lexmeter
-
-print("test")
