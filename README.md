@@ -11,6 +11,12 @@ Lexmeter identifie les différentes valeurs prises par ces attributs (c'est-à-d
 
 Le tri croisé peut enfin être exporté aux formats csv (colonnes séparées par des points virgules), html, ou tex.
 
+## Dépendances
+Lexmeter utilise les librairies BeautifulSoup et Prettytable, qui peuvent être installées avec pip :
+
+`pip3 install prettytable`
+
+`pip3 install beautifulsoup4`
 ## Utilisation
 Le script peut être utilisé de trois manières :
 
