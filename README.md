@@ -5,7 +5,7 @@ Script Python pour analyser les dissymétries d'un corpus lexicométrique et voi
 Script réalisé par Octave Julien (Pireh / Lamop - Université Paris 1 Panthéon-Sorbonne), février 2022.
 
 ## Fonctionnement détaillé
-Lexmeter charge un corpus au format XML (un fichier unique ou des fichiers multiples rassemblés dans un dossier). Il faut indiquer quelle balise sert à identifier dans le corpus les textes à considérer (<text> par exemple, sans les chevrons). Il faut ensuite préciser quels attributs présents dans ces balises doivent être pris en compte. Ces attributs sont ceux utilisés pour définir des partitions du corpus. 
+Lexmeter charge un corpus au format XML (un fichier unique ou des fichiers multiples rassemblés dans un dossier). Il faut indiquer quelle balise sert à identifier dans le corpus les textes à considérer (`<text>` par exemple, sans les chevrons). Il faut ensuite préciser quels attributs présents dans ces balises doivent être pris en compte. Ces attributs sont ceux utilisés pour définir des partitions du corpus. 
 
 Lexmeter identifie les différentes valeurs prises par ces attributs (c'est-à-dire les différentes parties des partitions correspondantes), compte le nombre de textes correspondant à chaque paire de valeurs des deux attributs, et calcule leur longueur cumulée. Les résulats se présentent sous la forme d'un tri croisé permettant de voir les correspondances entre les parties des deux partitions.
 
