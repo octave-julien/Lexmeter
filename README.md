@@ -44,3 +44,5 @@ En important le script comme un module dans un autre scrypt Python avec
 `import Lexmeter`
 
 il est possible d'invoquer la fonction lexmeter() avec les paramètres requis.
+
+### Test
